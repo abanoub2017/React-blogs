@@ -1,3 +1,28 @@
 {
-  "blogs": []
+  "blogs": [
+    {
+      "title": "asd",
+      "body": "asdas",
+      "author": "fam",
+      "id": 1
+    },
+    {
+      "title": "asds",
+      "body": "asd",
+      "author": "fam",
+      "id": 2
+    },
+    {
+      "title": "asd",
+      "body": "asd",
+      "author": "fam",
+      "id": 3
+    },
+    {
+      "title": "asd",
+      "body": "asd",
+      "author": "fam",
+      "id": 4
+    }
+  ]
 }
