@@ -6,24 +6,26 @@ import { BlogDetails } from './Pages/Blogs/blogDetails';
 import {BrowserRouter as Router, Route , Switch} from 'react-router-dom'
  export  const  App = () => {
   return (
-    <Router>
-      <div className="App">
-        <Navbar/>
-        <div className="content">
-          <Switch>
-            <Route exact path="/">
-                <Home/>
-            </Route>
-            <Route  path="/create">
-              <Create />
-            </Route>
-            <Route  path="/blogs/:id">
-              <BlogDetails />
-            </Route>
-          </Switch>
+    <BrowserRouter basename="/React-blogs">
+      <Router>
+        <div className="App">
+          <Navbar/>
+          <div className="content">
+            <Switch>
+              <Route exact path="/">
+                  <Home/>
+              </Route>
+              <Route  path="/create">
+                <Create />
+              </Route>
+              <Route  path="/blogs/:id">
+                <BlogDetails />
+              </Route>
+            </Switch>
+          </div>
         </div>
-      </div>
-    </Router>
+      </Router>
+    </BrowserRouter>
   );
 }
 
